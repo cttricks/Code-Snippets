@@ -1,0 +1,19 @@
+{
+	"name": "niotron-scoket.io",
+	"version": "1.0.0",
+	"description": "Sample code to use Socket.io Component of Niotron Builder.",
+	"main": "app.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"author": "Tanish Raj ~AKA~ Ct tricks",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.17.1",
+		"http": "0.0.1-security",
+		"socket.io": "^2.3.0"
+	},
+	"engines": {
+		"node": "v12.18.3"
+	}
+}
