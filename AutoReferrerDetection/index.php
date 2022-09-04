@@ -43,7 +43,7 @@ function getFormattedIP() {
     else
         $userid = '151.01.01.001';
 	
-    return  "ip_" . str_replace(":","_",str_replace(".","_", $userid));
+    return  "ip_" . str_replace(":","_",str_replace(".","_", explode(',', $userid)[0]));
 }
 
 $IP = getFormattedIP();
